@@ -69,12 +69,116 @@ font-family: 'Roboto Slab', serif; */
     A line
     ------------------ */
 
-.line{
-    width: 100vw;
+hr{
     height: 3vh;
     background-color:yellow;
 }
 
+.normal-line{
+    height: 3px;
+    background-color:yellow;
+    color: yellow;
+}
 
+/* -----------------------
+        our classes 
+-------------------------- */
+.classes-full-area{
+    width: 100vw;
+    background-color: black;
+    border-top: 1px solid black;
+    /* border-bottom: 1px solid black; */
+
+}
+.classes{
+    width: 75%;
+    margin: 80px auto;
+}
+
+.classes-text h3{
+    font-size: 25px;
+    color: yellow;
+}
+.class-text-line h1{
+    font-size: 60px;
+    display: inline;
+    padding-right: 30px;
+    color: white;
+}
+.class-text-line{
+    display: flex;
+    align-items: center;
+}
+
+
+
+/*--------------------------
+         card area styles
+---------------------------- */
+.card-area{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+}
+
+.class-card{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+/* ektar bitore ekta tai emne likhche ..... jodi siblings hoto taile ekmon hoto na ~ eita use korte hobe */
+
+.class-card:hover .card img{
+    transform: scale(1.2);
+    transition: 1s ease-in-out;
+}
+.card{
+    width: 350px;
+    height: 250px;
+}
+
+.card img{
+    width: 350px;
+    height: 250px;
+}
+.class-card h2{
+    padding:20px;
+    font-size: 30px;
+    background-color: blue;
+    color: white;
+    z-index: 2;
+
+}
+
+/*-------------------- class button design---------------------- */
+
+.class-button{
+    margin: 50px 0px;
+    text-align: center;
+}
+
+.class-button button{
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+    background-color:yellow;
+    color: blue;
+    font-weight: 700;
+    border: 3px solid yellow;
+    outline:none;
+    cursor: pointer;
+    
+}
+
+.class-button button:hover{
+    background-color:blue;
+    color: yellow;
+    font-weight: 700;
+    border: 3px solid yellow;
+    transition: .3s ease-in-out;
+}
 
 
