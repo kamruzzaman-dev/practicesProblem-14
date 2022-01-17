@@ -181,4 +181,110 @@ hr{
     transition: .3s ease-in-out;
 }
 
+/*---------------------------
+         workout section
+----------------------------- */
+
+.workout{
+    display: flex;
+    padding: 30px;
+    margin-top: 50px;
+    
+}
+.workout-image{
+    position: relative;
+    width: 40vw;
+    height: 70vh;
+    padding: 30px;
+    overflow: hidden;
+}
+.image-01{
+}
+
+.image-02{
+    position:absolute;
+    top:260px;
+    left:220px;
+}
+.workout-image img{
+    width: 320px;
+    height: 310px;
+}
+
+
+.workout-text{
+    width: 60vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around
+}
+
+.workout-text-top h3{
+    font-size: 20px;
+
+}
+.workout-text-top h1{
+    font-size: 35px;
+}
+
+.workout-text-mideal{
+    display: flex;
+}
+.part-1{
+    width: 15vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.part-1 i{
+    font-size: 50px;
+}
+.part-1 h1{
+    font-size: 25px;
+}
+.part-1 p{
+    font-size: 18px;
+}
+
+
+
+
+
+
+.workout-button button{
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+    background-color:yellow;
+    color: blue;
+    font-weight: 700;
+    border: 3px solid yellow;
+    outline:none;
+    cursor: pointer;
+    
+}
+.workout-button:hover button{
+    background-color:blue;
+    color: yellow;
+    font-weight: 700;
+    border: 3px solid yellow;
+    transition: .3s ease-in-out;
+}
+
+
+
+/*-------------------------------
+         limits secation 
+---------------------------------*/
+
+
+
+
+
+
+
+
 
