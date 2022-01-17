@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto+Slab&display=swap');
+
+/* 
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto Slab', serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*--------------------
+     banner design 
+---------------------- */
+
+
+.banner{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../image/banner_image-02.jpg),
+    linear-gradient(rgba(67, 97, 121, 0.486),rgba(90, 73, 241, 0.514));;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: 150vw 200vh;
+    background-position: center top;
+    background-attachment: fixed;
+    overflow: hidden;
+    outline: none;
+}
+.banner h3{
+    font-size: 30px;
+    padding: 15px;
+    color: white;
+}
+.banner h1{
+    font-size: 70px;
+    text-transform: uppercase;
+    padding: 15px;
+    line-height: 90%;
+    color: white;
+    text-align: center;
+    
+}
+.banner button{
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+    background-color:yellow;
+    color: blue;
+    font-weight: 700;
+    border: 3px solid yellow;
+    outline:none;
+    cursor: pointer;
+    
+}
+.banner button:hover{
+    background-color:blue;
+    color: yellow;
+    font-weight: 700;
+    border: 3px solid yellow;
+    transition: .3s ease-in-out;
+}
+
+/* -------------------
+    A line
+    ------------------ */
+
+.line{
+    width: 100vw;
+    height: 3vh;
+    background-color:yellow;
+}
+
+
+
+
