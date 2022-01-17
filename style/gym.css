@@ -534,3 +534,46 @@ hr{
     height: 538px;
     z-index: 1;
 }
+
+
+
+
+/* --------------------
+        footer
+----------------------- */
+
+
+.footer-section{
+    width: 95%px;
+    margin: 0px auto;
+    margin-top: 100px;
+    text-align: center;
+    background-color: #1b252f;
+    color: white;
+    padding: 100px 100px;
+    
+}
+footer h1{
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: capitalize;
+    line-height: 36px;
+   
+}
+footer p{
+    font-size: 16px;
+}
+
+.social-media{
+    margin:10px 0px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.social-media img{
+    width: 32px;
+    height: 32px;
+    padding: 5px 10px;
+}
