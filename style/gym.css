@@ -369,6 +369,86 @@ hr{
 }
 
 
+/* -----------------------
+        trainers
+-------------------------- */
+
+.trainers{
+    width: 100vw;
+    background-color: #1b252f;
+    border: 1px solid #1b252f;
+}
+.train{
+    width: 75%;
+    margin: 80px auto;
+    background-color: red;
+}
+.trainer-details{
+    height: 68vh;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: yellow;
+}
+
+.trainer{
+    width: 17vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 3px;
+}
+
+.trainer:nth-child(even){
+    margin-top: 50px;
+}
+.trainer:hover img{
+    transform: scale(1.3);
+    transition: .5s ease-in-out;
+}
+
+.trainer:hover .trainer-info{
+    background-color: yellow;
+    color: blue;
+}
+
+.trainer img{
+    width: 17vw;
+    height: 50vh;
+}
+#trainer-03 img{
+    width: 32vw;
+    height: 50vh;
+}
+
+#trainer-04 img{
+    width: 20vw;
+    height: 50vh;
+    position: center top;
+    overflow: hidden;
+}
+.trainer-info{
+    width: 17vw;
+    height: 12vh;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+    z-index: 2;
+}
+
+.trainer-info h1{
+    font-size: 25px;
+}
+
+.trainer-info p{
+    font-size: 16px;
+}
+
 
 
 
