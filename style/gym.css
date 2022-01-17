@@ -85,8 +85,8 @@ hr{
 -------------------------- */
 .classes-full-area{
     width: 100vw;
-    background-color: black;
-    border-top: 1px solid black;
+    background-color: #1b252f;
+    border-top: 1px solid #1b252f;
     /* border-bottom: 1px solid black; */
 
 }
@@ -279,10 +279,94 @@ hr{
 /*-------------------------------
          limits secation 
 ---------------------------------*/
+.limits{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../image/limits-imge-02.jpg),
+    linear-gradient(rgba(67, 97, 121, 0.486),rgba(241, 79, 73, 0.514));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-position: center bottom;
+    background-attachment: fixed;
+    overflow: hidden;
+    outline: none;
+}
+.limit-top{
+    width: 50vw;
+    height:25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+    border-radius: 8px;
+}
+
+.limit-top h3{
+    font-size: 25px;
+    color: yellow;
+}
+.limit-top h1{
+    font-size: 60px;
+    color: white;
+}
 
 
+/* -----------------------
+        client section
+-------------------------- */
 
 
+.clients{
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #1b252f;
+    border-top: 3px solid yellow;
+}
+
+.clients-down{
+    width: 50vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0e68fa;
+    border-radius: 8px;
+    position:absolute;
+    top:-140px;
+}
+
+.clients-down i{
+    width: 60px;
+    height: 60px;
+    font-size: 60px;
+    color: blue;
+    background-color: yellow;
+    text-align: center;
+}
+
+.clients-down h2{
+    font-size: 25px;
+    color: yellow;
+}
+
+.clients-down h1{
+    font-size: 45px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
 
 
 
