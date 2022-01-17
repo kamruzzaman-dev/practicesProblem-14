@@ -21,7 +21,7 @@ font-family: 'Roboto Slab', serif; */
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(../image/banner_image-02.jpg),
+    background-image: url(../image/banner_image-02min.jpg),
     linear-gradient(rgba(67, 97, 121, 0.486),rgba(90, 73, 241, 0.514));;
     background-blend-mode: overlay;
     background-repeat: no-repeat;
