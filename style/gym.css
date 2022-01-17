@@ -381,7 +381,6 @@ hr{
 .train{
     width: 75%;
     margin: 80px auto;
-    background-color: red;
 }
 .trainer-details{
     height: 68vh;
@@ -389,7 +388,6 @@ hr{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: yellow;
 }
 
 .trainer{
@@ -411,8 +409,8 @@ hr{
 }
 
 .trainer:hover .trainer-info{
-    background-color: yellow;
     color: blue;
+    background-color: yellow;
 }
 
 .trainer img{
@@ -434,6 +432,7 @@ hr{
     width: 17vw;
     height: 12vh;
     background-color: blue;
+    color: yellow;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -445,6 +444,7 @@ hr{
     font-size: 25px;
 }
 
+
 .trainer-info p{
     font-size: 16px;
 }
@@ -452,3 +452,85 @@ hr{
 
 
 
+
+/* -------------------------
+        challenge left
+---------------------------- */
+.challenge{
+    background-color: blue;
+    padding-top: 80px;
+}
+.challenge-details{
+    display: flex;
+    
+}
+
+.challenge-left{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+.challenge-left{
+    font-size: 20px;
+}
+.challenge-left h1{
+    font-size: 50px;
+    line-height: 80%;
+    text-transform: uppercase;
+    color: white;
+    
+}
+.challenge-left{color: yellow;}
+
+.book-button button{
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+    background-color:yellow;
+    color: blue;
+    font-weight: 700;
+    border: 3px solid yellow;
+    outline:none;
+    cursor: pointer;
+    
+}
+
+.book-button button:hover{
+    background-color:blue;
+    color: yellow;
+    font-weight: 700;
+    border: 3px solid yellow;
+    transition: .3s ease-in-out;
+}
+
+
+.challenge-right{
+    position: relative;
+    width: 50vw;
+    height: 70vh;
+}
+#image-02{
+    position:absolute;
+    top:260px;
+    left:260px;
+}
+
+.photo{
+    width: 360px;
+    height: 338px;
+    overflow: hidden;
+}
+
+#last-image-01{
+    width: 500px;
+    height: 450px;
+    z-index: 4;
+}
+#last-image-02{
+    width: 560px;
+    height: 538px;
+    z-index: 1;
+}
