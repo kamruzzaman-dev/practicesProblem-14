@@ -49,19 +49,19 @@ font-family: 'Roboto Slab', serif; */
     margin-top: 20px;
     padding: 10px;
     font-size: 20px;
-    background-color:yellow;
-    color: blue;
+    background-color:#FFDE01;
+    color: #5804FA;
     font-weight: 700;
-    border: 3px solid yellow;
+    border: 3px solid #FFDE01;
     outline:none;
     cursor: pointer;
     
 }
 .banner button:hover{
-    background-color:blue;
-    color: yellow;
+    background-color:#5804FA;
+    color: #FFDE01;
     font-weight: 700;
-    border: 3px solid yellow;
+    border: 3px solid #FFDE01;
     transition: .3s ease-in-out;
 }
 
@@ -70,14 +70,18 @@ font-family: 'Roboto Slab', serif; */
     ------------------ */
 
 hr{
-    height: 3vh;
-    background-color:yellow;
+    height: 5vh;
+    background-color:#FFDE01;
+    border-bottom: 1px solid #1b252f ;
+}
+.special{
+    background: linear-gradient(to bottom right, #FFDE01 50%, #1b252f 50%);
 }
 
 .normal-line{
     height: 3px;
-    background-color:yellow;
-    color: yellow;
+    background-color:#FFDE01;
+    color: #FFDE01;
 }
 
 /* -----------------------
@@ -97,7 +101,7 @@ hr{
 
 .classes-text h3{
     font-size: 25px;
-    color: yellow;
+    color: #FFDE01;
 }
 .class-text-line h1{
     font-size: 60px;
@@ -110,7 +114,9 @@ hr{
     align-items: center;
 }
 
-
+.special2{
+    background: linear-gradient(to bottom right, #FFDE01 50%, white 50%);
+}
 
 /*--------------------------
          card area styles
@@ -147,13 +153,15 @@ hr{
 .class-card h2{
     padding:20px;
     font-size: 30px;
-    background-color: blue;
+    background-color: #5804FA;
     color: white;
     z-index: 2;
 
 }
 
-/*-------------------- class button design---------------------- */
+/*------------------------
+    class button design
+-------------------------- */
 
 .class-button{
     margin: 50px 0px;
@@ -164,20 +172,20 @@ hr{
     margin-top: 20px;
     padding: 10px;
     font-size: 20px;
-    background-color:yellow;
-    color: blue;
+    background-color:#FFDE01;
+    color: #5804FA;
     font-weight: 700;
-    border: 3px solid yellow;
+    border: 3px solid #FFDE01;
     outline:none;
     cursor: pointer;
     
 }
 
 .class-button button:hover{
-    background-color:blue;
-    color: yellow;
+    background-color:#5804FA;
+    color: #FFDE01;
     font-weight: 700;
-    border: 3px solid yellow;
+    border: 3px solid #FFDE01;
     transition: .3s ease-in-out;
 }
 
@@ -198,8 +206,7 @@ hr{
     padding: 30px;
     overflow: hidden;
 }
-.image-01{
-}
+
 
 .image-02{
     position:absolute;
@@ -258,19 +265,19 @@ hr{
     margin-top: 20px;
     padding: 10px;
     font-size: 20px;
-    background-color:yellow;
-    color: blue;
+    background-color:#FFDE01;
+    color: #5804FA;
     font-weight: 700;
-    border: 3px solid yellow;
+    border: 3px solid #FFDE01;
     outline:none;
     cursor: pointer;
     
 }
 .workout-button:hover button{
-    background-color:blue;
-    color: yellow;
+    background-color:#5804FA;
+    color: #FFDE01;
     font-weight: 700;
-    border: 3px solid yellow;
+    border: 3px solid #FFDE01;
     transition: .3s ease-in-out;
 }
 
@@ -303,13 +310,13 @@ hr{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* background-color: blue; */
+    /* background-color: #5804FA; */
     border-radius: 8px;
 }
 
 .limit-top h3{
     font-size: 25px;
-    color: yellow;
+    color: #FFDE01;
 }
 .limit-top h1{
     font-size: 60px;
@@ -331,7 +338,7 @@ hr{
     align-items: center;
     position: relative;
     background-color: #1b252f;
-    border-top: 3px solid yellow;
+    border-top: 3px solid #FFDE01;
 }
 
 .clients-down{
@@ -351,14 +358,14 @@ hr{
     width: 60px;
     height: 60px;
     font-size: 60px;
-    color: blue;
-    background-color: yellow;
+    color: #5804FA;
+    background-color: #FFDE01;
     text-align: center;
 }
 
 .clients-down h2{
     font-size: 25px;
-    color: yellow;
+    color: #FFDE01;
 }
 
 .clients-down h1{
@@ -409,30 +416,19 @@ hr{
 }
 
 .trainer:hover .trainer-info{
-    color: blue;
-    background-color: yellow;
+    color: #5804FA;
+    background-color: #FFDE01;
 }
 
 .trainer img{
     width: 17vw;
     height: 50vh;
 }
-#trainer-03 img{
-    width: 32vw;
-    height: 50vh;
-}
-
-#trainer-04 img{
-    width: 20vw;
-    height: 50vh;
-    position: center top;
-    overflow: hidden;
-}
 .trainer-info{
     width: 17vw;
     height: 12vh;
-    background-color: blue;
-    color: yellow;
+    background-color: #5804FA;
+    color: #FFDE01;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -457,7 +453,7 @@ hr{
         challenge left
 ---------------------------- */
 .challenge{
-    background-color: blue;
+    background-color: #5804FA;
     padding-top: 80px;
 }
 .challenge-details{
@@ -483,26 +479,26 @@ hr{
     color: white;
     
 }
-.challenge-left{color: yellow;}
+.challenge-left{color: #FFDE01;}
 
 .book-button button{
     margin-top: 20px;
     padding: 10px;
     font-size: 20px;
-    background-color:yellow;
-    color: blue;
+    background-color:#FFDE01;
+    color: #5804FA;
     font-weight: 700;
-    border: 3px solid yellow;
+    border: 3px solid #FFDE01;
     outline:none;
     cursor: pointer;
     
 }
 
 .book-button button:hover{
-    background-color:blue;
-    color: yellow;
+    background-color:#5804FA;
+    color: #FFDE01;
     font-weight: 700;
-    border: 3px solid yellow;
+    border: 3px solid #FFDE01;
     transition: .3s ease-in-out;
 }
 
@@ -536,6 +532,11 @@ hr{
 }
 
 
+.normal-div{
+    width: 100vw;
+    height: 30vh;
+    background: linear-gradient(to bottom right, #FFDE01 50%, #1b252f 50%);
+}
 
 
 /* --------------------
@@ -546,7 +547,7 @@ hr{
 .footer-section{
     width: 95%px;
     margin: 0px auto;
-    margin-top: 100px;
+    margin-top: 0px;
     text-align: center;
     background-color: #1b252f;
     color: white;
@@ -577,3 +578,4 @@ footer p{
     height: 32px;
     padding: 5px 10px;
 }
+
